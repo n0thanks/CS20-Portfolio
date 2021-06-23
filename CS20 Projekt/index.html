@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Reaction Time Test</title>
+    <link rel="stylesheet" href="style.css">
+<link rel="icon" href="imgs/favicon.ico" type="favicon/x-icon">    
+</head>
+    
+    <body>
+      <h1>Reaction Time Test</h1>
+<hr>
+<p>Click the circle that appears as fast as possible each time it turns green.</p>
+<p>The circle will change colour 5 different times and average your time when finished.</p>
+<button id="start-btn">Start</button>
+<hr>
+<p>Time: <span id="click-time"></span></p>
+
+<img src="imgs/redcircle.png" width="300px" height="300px" id="red-circle">
+<img src="imgs/greencircle.png" width="300px" height="300px" id="green-circle">
+<p>Your average score is: <span id="average-time"></span></p>
+
+<script src="js/random-library.js"></script>
+<script src="js/main.js"></script>
+    </body>
+</html>
